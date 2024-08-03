@@ -1,0 +1,18 @@
+<resources>
+  <string name="app_name">Vehicle GPS Monitor</string> <!-- Este valor lo puedes elegir -->
+  <string name="login">login</string>
+  <string name="register">registro</string>
+  <string name="app_logo_desc">Geolocalización</string>
+  <string name="txt_registro">Registro</string>
+  <string name="et_Nombres">Nombre</string>
+  <string name="et_R_Password">Repetir contraseña</string>
+  <string name="btn_Registrar">Registrar</string>
+  <string name="txt_ya_tienes_cuenta">¿Ya tienes cuenta?</string>
+  <string name="tv_iniciar_sesion">Iniciar sesión</string>
+  <string name="view_history">historial</string>
+  <string name="toggle_notifications">notificaciones</string>
+  <string name="history_title">historial</string>
+  <string name="register_link">registerLink</string>
+  <string name="login_link">loginLink</string>
+  <string name="hello_world">¡Hola Mundo!</string> <!-- Agregado desde values.xml -->
+</resources>

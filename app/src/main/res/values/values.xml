@@ -1,0 +1,17 @@
+<resources>
+    <!-- Definición de colores -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- Definición de dimensiones -->
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="default_padding">8dp</dimen>
+
+    <!-- Definición de estilos -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

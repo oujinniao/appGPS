@@ -1,0 +1,66 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/background_color"
+    android:id="@+id/main">
+
+
+    <!-- Título de la aplicación -->
+
+    <!-- Logo de la aplicación -->
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:text="@string/app_name"
+        android:textColor="@android:color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:src="@drawable/ic_gps"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/app_logo_desc"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Botón de Iniciar Sesión -->
+    <Button
+        android:id="@+id/btn_login"
+        android:textSize="18sp"
+        android:textAllCaps="true"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@android:color/white"/>
+
+    <!-- Botón de Registrarse -->
+    <Button
+        android:id="@+id/btn_register"
+        android:textSize="18sp"
+        android:textAllCaps="true"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
